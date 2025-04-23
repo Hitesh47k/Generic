@@ -1,0 +1,89 @@
+.wrapper-3-main {
+
+    .wrapper-3 {
+        padding-top: 100px;
+        padding-bottom: 90px;
+        width: 100%;
+
+        .wrapper-3-upper {
+            p {
+                text-decoration: none;
+                color: #2A9D8F;
+                font-size: 16.3px;
+                letter-spacing: 1.4px;
+                font-weight: 400;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            h3 {
+                padding-top: 30px;
+                text-align: center;
+                color: #000000;
+                font-size: 2.6rem;
+                font-weight: 500;
+                line-height: 1.2em;
+                letter-spacing: 1.6px;
+                padding-bottom: 40px;
+            }
+        }
+
+        .wrapper-3-lower {
+            display: flex;
+
+            .wrapper-3-lower-div {
+                width: 33%;
+                padding: 33px;
+
+                .wrap-3-low-p1 {
+                    color: #2A9D8F;
+                    font-size: 16.5px;
+                    letter-spacing: 1.4px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    margin-bottom: 19px;
+                }
+
+                h4 {
+                    font-size: 1.5rem;
+                    font-weight: 500px;
+                    color: black;
+                    margin-bottom: 10px;
+                }
+
+                .wrap-3-low-p2 {
+                    color: #6e6565;
+                    letter-spacing: 0.3px;
+                    line-height: 3.2rem;
+                    font-size: 1.0rem;
+                    font-family: "DM Sans", sans-serif;
+                    line-height: 27px;
+                }
+            }
+
+
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .wrapper-3 {
+            padding-bottom: 60px;
+
+            .wrapper-3-upper {
+                h3 {
+                    font-size: 1.9rem;
+                }
+            }
+
+            .wrapper-3-lower {
+                flex-direction: column;
+
+                .wrapper-3-lower-div {
+                    width: 100%;
+                    padding: 0px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}

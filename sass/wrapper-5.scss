@@ -1,0 +1,100 @@
+.wrapper-5-main {
+    background-color: white;
+
+    .wrapper-5 {
+        display: flex;
+        padding-top: 100px;
+
+        .wrapper-5-left {
+            width: 50%;
+
+            .wrapper-5-left-inner-p1 {
+                text-decoration: none;
+                color: #2A9D8F;
+                font-size: 16.3px;
+                letter-spacing: 0.38px;
+                line-height: 1.5em;
+                font-weight: 400;
+                text-align: start;
+                text-transform: uppercase;
+            }
+
+            .wrapper-5-left-inner-h3 {
+                text-align: start;
+                font-size: 2.6rem;
+                font-weight: 500;
+                line-height: 1.2em;
+                letter-spacing: 1.6px;
+                color: black;
+                padding-bottom: 17px;
+                padding-top: 35px;
+            }
+
+            .wrapper-5-left-inner-p2 {
+                text-decoration: none;
+                color: #3b5552;
+                font-size: 15.6px;
+                letter-spacing: 0.5px;
+                line-height: 1.7em;
+                font-weight: 400;
+                text-align: start;
+            }
+        }
+
+        .wrapper-5-right {
+            width: 50%;
+
+            .wr-5-right-div1 {
+                margin-bottom: 23.5px;
+                border-bottom: 1px solid #d1d1d1;
+
+                .wr-5-right-div1-h4 {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    font-family: 'DM Sans', sans-serif;
+                    line-height: 1.27em;
+                }
+
+                .wr-5-right-div1-p {
+                    padding-top: 14px;
+                    padding-bottom: 30px;
+                    text-decoration: none;
+                    color: #3b5552;
+                    font-size: 15.5px;
+                    letter-spacing: 0.5px;
+                    font-weight: 400;
+                    text-align: start;
+                    line-height: 1.7em;
+
+                }
+            }
+
+            & .w-5-b-b {
+                border-bottom: none;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .wrapper-5-main {
+        .wrapper-5 {
+            padding-top: 70px;
+            flex-direction: column;
+
+            .wrapper-5-left {
+                width: 100%;
+
+                .wrapper-5-left-inner-h3 {
+                    font-size: 2rem;
+                }
+            }
+
+            .wrapper-5-right {
+                padding-top: 25px;
+                width: 100%;
+            }
+        }
+    }
+}

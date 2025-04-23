@@ -1,0 +1,102 @@
+.wrapper-two-main {
+    .wrapper-two {
+        display: flex;
+        padding-top: 120px;
+
+        .wrapper-two-inner {
+            display: flex;
+
+            .wrapper-two-left {
+                width: 50%;
+                background-color: white;
+
+                .wrapper-two-left-inner {
+                    padding: 123px 60px;
+
+                    .wr2-a1 {
+                        text-decoration: none;
+                        color: #2A9D8F;
+                        font-size: 16.5px;
+                        font-weight: 300;
+                        letter-spacing: 0.5px;
+                    }
+
+                    h2 {
+                        padding-top: 23px;
+                        color: #000000;
+                        font-size: 2.6rem;
+                        font-weight: 500;
+                        line-height: 1.2em;
+                        letter-spacing: 1.6px;
+                    }
+
+                    p {
+                        color: #3f5754;
+                        font-size: 1.0rem;
+                        line-height: 27px;
+                    }
+
+                    .wrapper-two-left-p {
+                        padding: 25px 0px 34px 0px;
+                    }
+
+                    .wr2-a2 {
+                        background-color: #2a9d8f;
+                        height: 45px;
+                        width: 181.09px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        &:hover {
+                            background-color: #376661ea;
+                            transition: 0.6s;
+                        }
+
+                        text-decoration: none;
+                        font-weight: 600;
+                        font-size: 0.9375rem;
+                        color:#FFFFFF;
+                    }
+                }
+            }
+
+            .wrapper-two-right {
+                width: 50%;
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .wrapper-two {
+            padding-top: 20px;
+
+            .wrapper-two-inner {
+                flex-direction: column-reverse;
+
+                .wrapper-two-left {
+                    width: 100%;
+                    flex-wrap: wrap;
+
+                    .wrapper-two-left-inner {
+                        padding: 25px;
+
+                        h2 {
+                            font-size: 1.8rem;
+                        }
+                    }
+
+                    .wrap-two-left-last {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+
+                .wrapper-two-right {
+                    width: 100%;
+                    height: 330px;
+                }
+            }
+        }
+    }
+}

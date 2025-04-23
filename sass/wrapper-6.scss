@@ -1,0 +1,101 @@
+.wrapper-6-main {
+    .wrapper-6 {
+        padding-top: 70px;
+        padding-bottom: 100px;
+
+        .wrapper-6-top {
+            display: flex;
+            justify-content: center;
+
+            h2 {
+                text-align: start;
+                font-size: 2.6rem;
+                font-weight: 500;
+                line-height: 1.2em;
+                letter-spacing: 1.6px;
+                color: black;
+                padding-bottom: 17px;
+                padding-top: 35px;
+            }
+        }
+
+        .wrapper-6-down {
+            padding-top: 30px;
+            display: flex;
+            gap: 30px;
+
+            .wrapper-6-down-div {
+                padding: 26px;
+                padding-bottom: 35px;
+                background-color: white;
+                width: 33.33%;
+
+                p {
+                    padding-top: 14px;
+                    padding-bottom: 30px;
+                    text-decoration: none;
+                    color: #3b5552;
+                    font-size: 16px;
+                    letter-spacing: 0.5px;
+                    font-weight: 400;
+                    line-height: 1.7em;
+
+                }
+
+                h5 {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:920px) {
+    .wrapper-6-main {
+        .wrapper-6 {
+            padding-top: 30px;
+            .wrapper-6-top {
+                text-align: center;
+                
+
+                h2 {
+                    font-size: 2.4rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:1025px) {
+    .wrapper-6-main {
+        .wrapper-6 {
+            .wrapper-6-top h2 {
+                text-align: center;
+            }
+
+            .wrapper-6-down {
+                flex-direction: column;
+
+                .wrapper-6-down-div {
+                    padding: 0px;
+                    padding-top: 20px;
+                    width: 100%;
+
+                    span {
+
+                        padding-left: 20px;
+                    }
+
+                    p {
+                        padding-left: 20px;
+                    }
+
+                    h5 {
+                        padding-left: 20px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

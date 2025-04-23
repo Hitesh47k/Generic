@@ -1,0 +1,19 @@
+footer {
+    background-color: white;
+
+    .footer-main {
+
+        height: 64px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .footer-p {
+            font-size: 0.875rem;
+            color: #805a5aef;
+            text-align: center;
+
+        }
+    }
+}
